@@ -9,7 +9,7 @@ package cn.Xunner.MyGobang.util;
 public enum Player {
 	BLACK("黑方"), WHITE("白方");
 
-	String value;
+	private String value;
 
 	private Player(String value) {
 		this.value = value;
